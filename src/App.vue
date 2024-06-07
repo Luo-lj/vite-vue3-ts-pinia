@@ -3,12 +3,12 @@
 </template>
 
 <script setup lang="ts">
-import Home from '@/views/Home.vue'
-import API from '@/api';
+import Home from '@/views/Home.vue';
+// import API from '@/api';
 
-const requestRes =async()=>{
-  let result=await API.login("zhangsan", '123456');
-}
+// const requestRes = async () => {
+//   let result = await API.login('zhangsan', '123456');
+// };
 </script>
 
 <style scoped>
